@@ -1,0 +1,156 @@
+.headermain{
+    background-color: rgb(138, 138, 138);
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 15px;
+    position: fixed;
+    top: 25px;
+    left: 20px;
+    right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: rgb(153, 153, 153);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+
+}
+.middle-section{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-section{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.bag{
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+.div-image{
+    max-height: 550px;
+    border-radius: 15px;
+    min-width: 350px;
+    margin: 110px 110px 90px 110px;
+}
+.heading{
+    text-align: center;
+}
+.first-p{
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-indent: 5px;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.display{
+    display: flex;
+    flex: row;
+    gap: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.display4{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    border-radius: 25px;
+    gap: 10px;
+}
+.img2{
+    max-height: 350px;
+    max-width: 230px;
+    border-radius: 25px
+}
+.refine-button{
+    padding: 10px 14px 10px 14px;
+    background-color: white;
+    margin-left: 47%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+.refine-button:hover{
+    background-color: antiquewhite;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 284px;
+    gap: 10px;
+}
+.img5{
+    border-radius: 25px;
+    height: 380px;
+    width: 270px;
+    flex: 3;
+}
+
+.price{
+    text-align: center;
+} 
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.footer-content{
+    height: 350px;
+    width: 270px;
+}
+.footer-p{
+    line-height: 18px;
+}
+.button-maison{
+    border: none;
+}
+.button-maison:hover{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.button-mm{
+    border: none;
+}
+.button-mm:hover{
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.maison-last{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+}
